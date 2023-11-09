@@ -17,6 +17,7 @@ enum ImageProcessingError: Error {
     case maskingError
 }
 
+@available(iOS 14, *)
 public struct BackgroundRemoval {
     public init() {
     }
